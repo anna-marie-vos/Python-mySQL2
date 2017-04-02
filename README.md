@@ -67,3 +67,8 @@ CREATE TABLE `listDB`.`tbl_user` (
   `user_username` VARCHAR(45) NULL,
   `user_password` VARCHAR(45) NULL,
   PRIMARY KEY (`user_id`));
+
+## finding a Python3 mySQL connector:
+* Stack overflow says PyMySQL works: https://github.com/PyMySQL/PyMySQL
+* to install: sudo apt-get install python3-pymysql
+*
