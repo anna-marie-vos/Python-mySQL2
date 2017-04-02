@@ -27,8 +27,8 @@ A new Python serverside webpage with mySQL
 * specify the system python3 installation: virtualenv --python=/usr/bin/python3 venv/webapp
 * to activate the virtualenv: source venv/webapp/bin/activate
 * to deactivate the virtualenv: deactivate
+* gunicorn is something like a service worker... not sure
 * now install flask and Green Unicorn: pip3 install flask gunicorn
 * To test that flask works, create a new folder in your main directory and add a file called (i've called mine webApp): __init__.py
 * navigate to the main directory.
-* Then use gunicorn to run the file (you can also type python __init__.py): gunicorn webApp:app
-* It will run on localhost:8000/
+* Then use gunicorn to run the file (you can also type python3 __init__.py): gunicorn webApp:app
